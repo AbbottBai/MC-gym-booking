@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B1550D092CEBBBAB005EE48E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1550CF02CEBBBA9005EE48E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1550CF72CEBBBA9005EE48E;
+			remoteInfo = "MC gym booking";
+		};
+		B1550D132CEBBBAB005EE48E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1550CF02CEBBBA9005EE48E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1550CF72CEBBBA9005EE48E;
+			remoteInfo = "MC gym booking";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1550CF82CEBBBA9005EE48E /* MC gym booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MC gym booking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1550D082CEBBBAB005EE48E /* MC gym bookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MC gym bookingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1550D122CEBBBAB005EE48E /* MC gym bookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MC gym bookingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B1550CFA2CEBBBA9005EE48E /* MC gym booking */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MC gym booking";
+			sourceTree = "<group>";
+		};
+		B1550D0B2CEBBBAB005EE48E /* MC gym bookingTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MC gym bookingTests";
+			sourceTree = "<group>";
+		};
+		B1550D152CEBBBAB005EE48E /* MC gym bookingUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MC gym bookingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1550CF52CEBBBA9005EE48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1550D052CEBBBAB005EE48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1550D0F2CEBBBAB005EE48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1550CEF2CEBBBA9005EE48E = {
+			isa = PBXGroup;
+			children = (
+				B1550CFA2CEBBBA9005EE48E /* MC gym booking */,
+				B1550D0B2CEBBBAB005EE48E /* MC gym bookingTests */,
+				B1550D152CEBBBAB005EE48E /* MC gym bookingUITests */,
+				B1550CF92CEBBBA9005EE48E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1550CF92CEBBBA9005EE48E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1550CF82CEBBBA9005EE48E /* MC gym booking.app */,
+				B1550D082CEBBBAB005EE48E /* MC gym bookingTests.xctest */,
+				B1550D122CEBBBAB005EE48E /* MC gym bookingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1550CF72CEBBBA9005EE48E /* MC gym booking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1550D1C2CEBBBAB005EE48E /* Build configuration list for PBXNativeTarget "MC gym booking" */;
+			buildPhases = (
+				B1550CF42CEBBBA9005EE48E /* Sources */,
+				B1550CF52CEBBBA9005EE48E /* Frameworks */,
+				B1550CF62CEBBBA9005EE48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B1550CFA2CEBBBA9005EE48E /* MC gym booking */,
+			);
+			name = "MC gym booking";
+			packageProductDependencies = (
+			);
+			productName = "MC gym booking";
+			productReference = B1550CF82CEBBBA9005EE48E /* MC gym booking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1550D072CEBBBAB005EE48E /* MC gym bookingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1550D1F2CEBBBAB005EE48E /* Build configuration list for PBXNativeTarget "MC gym bookingTests" */;
+			buildPhases = (
+				B1550D042CEBBBAB005EE48E /* Sources */,
+				B1550D052CEBBBAB005EE48E /* Frameworks */,
+				B1550D062CEBBBAB005EE48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1550D0A2CEBBBAB005EE48E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B1550D0B2CEBBBAB005EE48E /* MC gym bookingTests */,
+			);
+			name = "MC gym bookingTests";
+			packageProductDependencies = (
+			);
+			productName = "MC gym bookingTests";
+			productReference = B1550D082CEBBBAB005EE48E /* MC gym bookingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1550D112CEBBBAB005EE48E /* MC gym bookingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1550D222CEBBBAB005EE48E /* Build configuration list for PBXNativeTarget "MC gym bookingUITests" */;
+			buildPhases = (
+				B1550D0E2CEBBBAB005EE48E /* Sources */,
+				B1550D0F2CEBBBAB005EE48E /* Frameworks */,
+				B1550D102CEBBBAB005EE48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1550D142CEBBBAB005EE48E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B1550D152CEBBBAB005EE48E /* MC gym bookingUITests */,
+			);
+			name = "MC gym bookingUITests";
+			packageProductDependencies = (
+			);
+			productName = "MC gym bookingUITests";
+			productReference = B1550D122CEBBBAB005EE48E /* MC gym bookingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1550CF02CEBBBA9005EE48E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B1550CF72CEBBBA9005EE48E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B1550D072CEBBBAB005EE48E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B1550CF72CEBBBA9005EE48E;
+					};
+					B1550D112CEBBBAB005EE48E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B1550CF72CEBBBA9005EE48E;
+					};
+				};
+			};
+			buildConfigurationList = B1550CF32CEBBBA9005EE48E /* Build configuration list for PBXProject "MC gym booking" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1550CEF2CEBBBA9005EE48E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B1550CF92CEBBBA9005EE48E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1550CF72CEBBBA9005EE48E /* MC gym booking */,
+				B1550D072CEBBBAB005EE48E /* MC gym bookingTests */,
+				B1550D112CEBBBAB005EE48E /* MC gym bookingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1550CF62CEBBBA9005EE48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1550D062CEBBBAB005EE48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1550D102CEBBBAB005EE48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1550CF42CEBBBA9005EE48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1550D042CEBBBAB005EE48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1550D0E2CEBBBAB005EE48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1550D0A2CEBBBAB005EE48E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1550CF72CEBBBA9005EE48E /* MC gym booking */;
+			targetProxy = B1550D092CEBBBAB005EE48E /* PBXContainerItemProxy */;
+		};
+		B1550D142CEBBBAB005EE48E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1550CF72CEBBBA9005EE48E /* MC gym booking */;
+			targetProxy = B1550D132CEBBBAB005EE48E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B1550D1A2CEBBBAB005EE48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1550D1B2CEBBBAB005EE48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1550D1D2CEBBBAB005EE48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MC gym booking/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.runbai.MC-gym-booking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1550D1E2CEBBBAB005EE48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MC gym booking/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.runbai.MC-gym-booking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1550D202CEBBBAB005EE48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.runbai.MC-gym-bookingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MC gym booking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MC gym booking";
+			};
+			name = Debug;
+		};
+		B1550D212CEBBBAB005EE48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.runbai.MC-gym-bookingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MC gym booking.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MC gym booking";
+			};
+			name = Release;
+		};
+		B1550D232CEBBBAB005EE48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.runbai.MC-gym-bookingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MC gym booking";
+			};
+			name = Debug;
+		};
+		B1550D242CEBBBAB005EE48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.runbai.MC-gym-bookingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MC gym booking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1550CF32CEBBBA9005EE48E /* Build configuration list for PBXProject "MC gym booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1550D1A2CEBBBAB005EE48E /* Debug */,
+				B1550D1B2CEBBBAB005EE48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1550D1C2CEBBBAB005EE48E /* Build configuration list for PBXNativeTarget "MC gym booking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1550D1D2CEBBBAB005EE48E /* Debug */,
+				B1550D1E2CEBBBAB005EE48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1550D1F2CEBBBAB005EE48E /* Build configuration list for PBXNativeTarget "MC gym bookingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1550D202CEBBBAB005EE48E /* Debug */,
+				B1550D212CEBBBAB005EE48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1550D222CEBBBAB005EE48E /* Build configuration list for PBXNativeTarget "MC gym bookingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1550D232CEBBBAB005EE48E /* Debug */,
+				B1550D242CEBBBAB005EE48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1550CF02CEBBBA9005EE48E /* Project object */;
+}
